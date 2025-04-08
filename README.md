@@ -28,13 +28,15 @@ bun install
 
 ## 📂 Scripts
 
-Command Description
-bun run dev Run the app in development mode
-bun run start Run the built app
-bun run build Build the project to dist/
-bun run migration:generate Generate a new migration
-bun run migration:run Run migrations using ormconfig.ts
-bun run migration:revert Revert the last migration
+```bash
+# Command                    # Description
+bun run dev                  # Run the app in development mode
+bun run start                # Run the built app
+bun run build                # Build the project to dist/
+bun run migration:generate   # Generate a new migration
+bun run migration:run        # Run migrations using ormconfig.ts
+bun run migration:revert     # Revert the last migration
+```
 
 ## 🗃 Project Structure
 
